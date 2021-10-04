@@ -1,12 +1,17 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { 
+  BrowserRouter, 
+  Switch, 
+  Route 
+  } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Services from './Components/Services/Services';
 import About from './Components/About Us/About';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -32,8 +37,8 @@ function App() {
             <Contact></Contact>
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
-  
     </div>
   );
 }

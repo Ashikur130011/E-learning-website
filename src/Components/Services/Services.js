@@ -13,8 +13,8 @@ const Services = () => {
         .then(data => setSubjects(data))
     },[])
     return (
-        <div>
-            <h2>Our Services</h2>
+        <div className="home px-5">
+            <h2 className="py-3 text-success">Our Services</h2>
             <div className="Subject-container">
         <Row xs={1} md={3} className="g-4 mb-4">
            {
