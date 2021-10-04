@@ -1,6 +1,6 @@
 # Life site Link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://loving-thompson-fa67bf.netlify.app
 
 ## The most attarctive features of this website are:
 
