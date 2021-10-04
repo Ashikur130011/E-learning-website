@@ -1,4 +1,3 @@
-
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { 
@@ -12,6 +11,7 @@ import Services from './Components/Services/Services';
 import About from './Components/About Us/About';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import NotFound from './Components/NotFound/NotFound';
 
 
 
@@ -32,6 +32,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
           <Route path="/contact">
             <Contact></Contact>
