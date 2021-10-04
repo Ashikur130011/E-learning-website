@@ -1,0 +1,15 @@
+.header{
+    color: rgb(218, 42, 42);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    background-color: rgb(208, 225, 226);
+}
+.header-nav{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    padding: 10px;
+    
+}
