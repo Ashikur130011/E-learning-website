@@ -28,7 +28,7 @@ const Footer = () => {
             <div>
                 <h1 className="text-dark mb-3">Useful Links</h1>
                 <ul><a className="footer-link text-white" href="/home">Home</a></ul>
-                <ul><a className="footer-link text-white" href="/service">Services</a></ul>
+                <ul><a className="footer-link text-white" href="/services">Services</a></ul>
                 <ul><a className="footer-link text-white" href="/about">About Us</a></ul>
                 <ul>Free Courses</ul>
             </div>

@@ -33,12 +33,13 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
           <Route path="/contact">
             <Contact></Contact>
           </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
+          
         </Switch>
         <Footer></Footer>
       </BrowserRouter>
