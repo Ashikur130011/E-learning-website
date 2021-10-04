@@ -1,4 +1,4 @@
-# Life site Link
+# Live site Link
 
 https://loving-thompson-fa67bf.netlify.app
 
