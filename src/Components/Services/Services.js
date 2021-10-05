@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Subject from '../Subject/Subject';
-import { Button, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 
 const Services = () => {
     const [subjects, setSubjects] = useState([]);

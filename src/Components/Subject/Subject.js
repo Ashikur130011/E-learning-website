@@ -3,12 +3,12 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStarHalfAlt, 
-    faStar, 
-    faStoreAlt,
-    faUserFriends, 
-    faBookReader, 
-    faMoneyBillAlt 
-    } from '@fortawesome/free-solid-svg-icons';
+        faStar, 
+        faStoreAlt,
+        faUserFriends, 
+        faBookReader, 
+        faMoneyBillAlt 
+        } from '@fortawesome/free-solid-svg-icons';
 import './Subject.css'
 
 const Subject = (props) => {

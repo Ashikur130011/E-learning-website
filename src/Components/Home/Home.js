@@ -7,7 +7,6 @@ import {faStar,
     faStoreAlt, 
     faBookReader, 
     faComment,
-    faRegistered,
     faCashRegister,
     } from '@fortawesome/free-solid-svg-icons';
 import { 
@@ -97,11 +96,12 @@ const Home = () => {
                 
             </div>
                 {/* ----------- Home Form----------- */}
-            <div className="form-container p-5 my-4">
+            <div className="form-container m-5">
                 <div>
-                    <h1 className="text-success p-4 mb-3">Add Your Comments <span className="text-warning"><FontAwesomeIcon icon={faComment} /></span></h1>
-                    <div style={{ width: '80%' }} className="form p-4 bg-success pill ">
-                        <Form>
+                    
+                    <div className="px-5 mx-5">
+                    <h1 className="text-success py-4 mb-3">Add Your Comments <span className="text-warning"><FontAwesomeIcon icon={faComment} /></span></h1>
+                        <Form className="form p-4 m-5 bg-success pill">
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label className='text-white fw-bold'>Email address</Form.Label>
                                 <Form.Control type="email" placeholder="name@example.com" />
@@ -112,11 +112,13 @@ const Home = () => {
                             </Form.Group>
                             <Button className="mt-2 button text-white fw-bold" variant="danger">Submit</Button>
                         </Form>
+                        <h1 className="mt-5 pt-5">"People expect to be bored by e-learning.<br/><span className="text-primary">Let's show them it doesn't have to be like that!</span>"</h1>
                     </div>
+                    
                 </div>
-                <div className="register-form p-4">
+                <div className="register-form px-5 mx-5">
                     <h1 className="text-success p-4 mb-3">Register Here <span className="text-warning"><FontAwesomeIcon icon={faCashRegister} /></span></h1>
-                    <Form>
+                    <Form className="p-4">
                         <Form.Group>
                             <Row className="mb-4">
                             <Form.Label className=" fw-bold">Name</Form.Label>

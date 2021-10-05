@@ -21,6 +21,6 @@
     background-color: red;
 }
 .card-hover:hover{
-    background-color: rgba(184, 180, 174, 0.308);
+    background-color: rgba(196, 194, 192, 0.308);
     box-shadow: 1px 1px 7px 7px rgb(212, 208, 201);
 }

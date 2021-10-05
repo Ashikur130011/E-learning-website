@@ -2,14 +2,7 @@
 import React from 'react';
 import { Card} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faStar, 
-    faStoreAlt, 
-    faBookReader, 
-    faComment,
-    faJoint,
-    faAdjust,
-    faPersonBooth,
-    } from '@fortawesome/free-solid-svg-icons';
+import {faPersonBooth} from '@fortawesome/free-solid-svg-icons';
 import './About.css'
 
 const About = () => {

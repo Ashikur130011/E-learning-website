@@ -20,12 +20,14 @@
 .offer-section{
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
+    border: 2px solid rgb(6, 133, 13);
     border-radius: 20px;
     background-color:whitesmoke;
+    box-shadow: 1px 2px 7px 7px rgb(220, 250, 200);
 }
 .offer-section:hover{
     box-shadow: 1px 2px 7px 7px rgba(192, 182, 182, 0.788);
+    background-color: white;
 }
 .form-container{
     display: flex;
@@ -36,9 +38,10 @@
     border-radius: 10px;
 }
 .register-form{
-    background-color: whitesmoke;
+    background-color:white;
     margin-top: 200px;
     box-shadow: 1px 1px 8px 6px rgb(211, 208, 208);
+    border: 2px solid green;
     border-radius: 20px;
 }
 
