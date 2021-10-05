@@ -1,6 +1,6 @@
-# Live site Link
+# Learning Tech (E-learning site)
 
-https://loving-thompson-fa67bf.netlify.app
+Life site Link: https://loving-thompson-fa67bf.netlify.app
 
 ## The most attarctive features of this website are:
 
