@@ -2,27 +2,46 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(208, 225, 226);  
+    background-color: rgba(208, 216, 216, 0.719);  
 }
 
 .home-container img{
     height: 500px;
 }
+.special{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px 7px rgba(192, 182, 182, 0.788);
+}
 .offer-section img{
-    height: 300px;
-    border-radius: 10px;
+    width: 220px;
+    border-radius: 50%;
 }
 .offer-section{
     display: flex;
     justify-content: space-around;
     border: 1px solid red;
     border-radius: 20px;
-    background-color: rgb(237, 241, 241);
+    background-color:whitesmoke;
+}
+.offer-section:hover{
+    box-shadow: 1px 2px 7px 7px rgba(192, 182, 182, 0.788);
+}
+.form-container{
+    display: flex;
+    justify-content: space-around;
 }
 .form{
     border: 3px solid lightgreen;
     border-radius: 10px;
 }
+.register-form{
+    background-color: whitesmoke;
+    margin-top: 200px;
+    box-shadow: 1px 1px 8px 6px rgb(211, 208, 208);
+    border-radius: 20px;
+}
+
 
 
 

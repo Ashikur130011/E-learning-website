@@ -1,6 +1,15 @@
 
 import React from 'react';
 import { Card} from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faStar, 
+    faStoreAlt, 
+    faBookReader, 
+    faComment,
+    faJoint,
+    faAdjust,
+    faPersonBooth,
+    } from '@fortawesome/free-solid-svg-icons';
 import './About.css'
 
 const About = () => {
@@ -33,7 +42,7 @@ const About = () => {
                     At Udemy, we’re all learners and instructors. We live out our values every day to create a culture that is diverse, inclusive, and committed to helping employees thrive.
                     </Card.Text>
                   </Card.Body>
-                  <Card.Footer>Join our team</Card.Footer>
+                  <Card.Footer>Join our team  <FontAwesomeIcon icon={faPersonBooth} /></Card.Footer>
                 </Card>
                   <Card className='bg-info' style={{ width: '23rem' }}>
                   <Card.Body>
@@ -42,7 +51,7 @@ const About = () => {
                     We’re committed to changing the future of learning for the better. Dig into our original research to learn about the forces that are shaping the modern workplace.
                     </Card.Text>
                   </Card.Body>
-                  <Card.Footer>Join our team</Card.Footer>
+                  <Card.Footer>Join our team  <FontAwesomeIcon icon={faPersonBooth} /> </Card.Footer>
                 </Card>
                   <Card className="bg-success text-white" style={{ width: '23rem' }}>
                   <Card.Body>
@@ -51,7 +60,7 @@ const About = () => {
                     Want to know what we’ve been up to lately? Check out the Udemy blog to get the scoop on the latest news, ideas and projects, and more.
                     </Card.Text>
                   </Card.Body>
-                  <Card.Footer>Join our team</Card.Footer>
+                  <Card.Footer>Join our team <FontAwesomeIcon icon={faPersonBooth} /> </Card.Footer>
                 </Card>
               </div>
         </div>

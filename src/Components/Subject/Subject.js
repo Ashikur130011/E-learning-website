@@ -15,9 +15,9 @@ const Subject = (props) => {
     const{picture,lesson,subject,Students, Ratings, price} =props.subject;
 
     return (
-        <div>
+        <div className="p-2">
             <Col>
-                <Card className="fw-bold card-hover">
+                <Card className="fw-bold card-hover ">
                     <Card.Img className="card-img p-2" variant="top" src={picture} />
                     <Card.Body>
                     <div>

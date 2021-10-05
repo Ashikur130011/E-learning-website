@@ -3,9 +3,7 @@ import React from 'react';
 const NotFound = () => {
     return (
         <div className="m-5">
-            <h1>404</h1>
-            <br />
-            <h4>Page not found</h4>
+            <img src="/404.webp" alt="404 img" />
         </div>
     );
 };
